@@ -1,0 +1,21 @@
+{
+  "name": "DiceGame",
+  "description": "a functional Javascript demo",
+  "author": {
+    "name": "George White",
+    "email": "stonehippo@gmail.com",
+    "url": "https://github.com/stonehippo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gist.github.com/24ca921810c94b82312a.git"
+  },
+  "license": "MIT",
+  "version": "0.8.0",
+  "dependencies": {
+    "ramda": "^0.18.0"
+  },
+  "devDependencies": {},
+  "config": {},
+  "scripts": {}
+}
