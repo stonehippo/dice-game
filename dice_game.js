@@ -27,8 +27,20 @@ let dice = R.curry((f, n) => () => R.repeat(f, n));
 // roll:: [(_ -> int)] -> int
 let roll = dice => R.reduce((a, b) => a + b(), 0, dice);
 
+// isRollBelow:: int -> int -> boolean
+let isRollBelow = R.curry((c, r) => r < c );
+
+// isRollAbove:: int -> int -> boolean
+let isRollAbove = R.curry((f, r) => r > f );
+
+// isRollBetween:: int -> int -> int -> boolean
+let isRollBetween = R.curry((c, f, r) => isRollAbove(c, r) && isRollBelow(f, r));
+
 module.exports = {
     die: die,
     dice: dice,
-    roll: roll
+    roll: roll,
+    isRollBelow: isRollBelow,
+    isRollAbove: isRollAbove,
+    isRollBetween: isRollBetween
 };
