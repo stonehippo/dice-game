@@ -21,7 +21,7 @@ const d10 = dice_game.die(10);
 const d12 = dice_game.die(12);
 const d20 = dice_game.die(20);
 
-// define some common dice
+// define some common dice combos
 const _d4 = R.map(dice_game.dice(d4), [1, 2, 3, 4, 5, 6]);
 const _d6 = R.map(dice_game.dice(d6), [1, 2, 3, 4, 5, 6]);
 const _d20 = R.map(dice_game.dice(d20), [1, 2, 3]);
