@@ -13,7 +13,7 @@ var dg = require('dice_game');
 Create some die types
 
 ```
-var d4 = dg.die(6);
+var d4 = dg.die(4);
 var d6 = dg.die(6);
 var d20 = dg.die(20);
 ```
