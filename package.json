@@ -13,9 +13,8 @@
   "license": "MIT",
   "version": "0.8.0",
   "dependencies": {
-    "ramda": "^0.18.0"
+    "ramda": "^0.28.0"
   },
-  "devDependencies": {},
   "config": {},
   "scripts": {}
 }
