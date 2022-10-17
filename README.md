@@ -4,28 +4,28 @@ A tiny functional Javascript library for dice-based game mechanics.
 
 ## Usage
 
-Include the library
+Include the library:
 
 ```
-var dg = require('dice_game');
+const dg = require('dice-game');
 ```
 
-Create some die types
+Create some die types. There are primitive types, and can be invoked directly (e.g. `d6()` will return a value between 1 and 6).
 
 ```
-var d4 = dg.die(4);
-var d6 = dg.die(6);
-var d20 = dg.die(20);
+const d4 = dg.die(4);
+const d6 = dg.die(6);
+const d20 = dg.die(20);
 ```
 
-Create some dice for rolls
+Create some dice comboe for rolls. In other words, create a method for rolling multiple dice of the same type at once.
 
 ```
-var _1d6 = dg.dice(d6, 1);
-var _3d6 = dg.dice(d6, 3);
+const _1d6 = dg.dice(d6, 1);
+const _3d6 = dg.dice(d6, 3);
 ```
 
-Roll some dice
+Roll some dice combos. This is done indirectly, with the `roll` function handling calling the specified dice objects invocation fuction.
 
 ```
 dg.roll(_3d6()); // returns an integer between 3…18
