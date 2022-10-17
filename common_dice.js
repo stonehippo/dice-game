@@ -11,7 +11,7 @@
 'use strict';
 
 const R = require("ramda");
-const dice_game = require("./dice-game.js")
+const dice_game = require("./index.js")
 
 // define some standard die types
 const d4 = dice_game.die(4);

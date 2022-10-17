@@ -15,6 +15,14 @@
   "dependencies": {
     "ramda": "^0.28.0"
   },
+  "main": "./index.js",
+  "exports": {
+    ".":{
+      "default": "./index.js",
+      "require": "./index.js"
+    },
+    "./common_dice": "./common_dice.js"
+  },
   "config": {},
   "scripts": {}
 }
