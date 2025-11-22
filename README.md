@@ -51,3 +51,8 @@ const common_dice = require('dice-game/common_dice')
 # roll a 3d6
 dg.roll(common_dice.dice.d6[2]())
 ```
+---
+
+## See also
+
+I have written [a very lightweight dice roller in Python](https://gist.github.com/stonehippo/b6a2cae0deecca1f86bc5ef316546f61), too.
