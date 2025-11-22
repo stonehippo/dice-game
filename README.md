@@ -55,4 +55,6 @@ dg.roll(common_dice.dice.d6[2]())
 
 ## See also
 
-I have written [a very lightweight dice roller in Python](https://gist.github.com/stonehippo/b6a2cae0deecca1f86bc5ef316546f61), too.
+There's [a more compact Javascript dice-rolling implementation](https://github.com/stonehippo/ultra-lite-engine/blob/main/lib/ultralite/dice.js) in my ultralite engine project. 
+
+I have also written [a very lightweight dice roller in Python](https://gist.github.com/stonehippo/b6a2cae0deecca1f86bc5ef316546f61).
