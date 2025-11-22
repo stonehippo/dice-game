@@ -57,4 +57,4 @@ dg.roll(common_dice.dice.d6[2]())
 
 There's [a more compact Javascript dice-rolling implementation](https://github.com/stonehippo/ultra-lite-engine/blob/main/lib/ultralite/dice.js) in my ultralite engine project. 
 
-I have also written [a very lightweight dice roller in Python](https://gist.github.com/stonehippo/b6a2cae0deecca1f86bc5ef316546f61).
+I have also written [a very lightweight dice roller in Python](https://gist.github.com/stonehippo/b6a2cae0deecca1f86bc5ef316546f61). There's [a bonus implementation for Arduino](https://gist.github.com/stonehippo/b6a2cae0deecca1f86bc5ef316546f61#file-roller-ino) in that gist, too.
