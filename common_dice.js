@@ -21,10 +21,13 @@ const d10 = dice_game.die(10);
 const d12 = dice_game.die(12);
 const d20 = dice_game.die(20);
 
-// define some common dice combos
-const _d4 = R.map(dice_game.dice(d4), [1, 2, 3, 4]);
+// define some common dice combos, for 1-6dx
+const _d4 = R.map(dice_game.dice(d4), [1, 2, 3, 4, 5, 6]);
 const _d6 = R.map(dice_game.dice(d6), [1, 2, 3, 4, 5, 6]);
-const _d20 = R.map(dice_game.dice(d20), [1, 2, 3]);
+const _d8 = R.map(dice_game.dice(d8), [1, 2, 3, 4, 5, 6]);
+const _d10 = R.map(dice_game.dice(d10), [1, 2, 3, 4, 5, 6]);
+const _d12 = R.map(dice_game.dice(d12), [1, 2, 3, 4, 5, 6]);
+const _d20 = R.map(dice_game.dice(d20), [1, 2, 3, 4, 5, 6]);
 
 module.exports = {
     types: {
@@ -38,6 +41,9 @@ module.exports = {
     dice: {
         d4: _d4,
         d6: _d6,
+        d8: _d8,
+        d10: _d10,
+        d12: _d12,
         d20: _d20
     }
 }
